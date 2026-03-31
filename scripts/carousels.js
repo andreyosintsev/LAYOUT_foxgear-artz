@@ -59,7 +59,7 @@ $(document).ready(function() {
 
     $('.video-slider__videos').owlCarousel(
         {
-            items: 3,
+            items: 5,
             margin: 15,
             loop: false,
             nav: false,
@@ -67,6 +67,14 @@ $(document).ready(function() {
             pullDrag: true,
             autoWidth: false,
             autoHeight: false,
+            responsive: {
+                0: {
+                    items: 3,
+                },
+                971: {
+                    items: 5,
+                }
+            }
         }
     );
 });

@@ -10,6 +10,13 @@
     padding: 0;
 }
 
+.wrapper-1300 {
+    width: 100%;
+    max-width: var(--content-width, 1230px);
+    padding: 0;
+    margin: 0 auto;
+}
+
 @media (max-width: 1600px) {
     .wrapper-1600 {
         padding: 0 40px;
