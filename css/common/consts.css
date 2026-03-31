@@ -9,8 +9,8 @@
     --max-content-width:        1920px;
     --header-width:             1600px;
     --wrapper-width:            1440px;
-    --content-width:            1230px;
-    --tech-table-width:         1200px;
+    /* --content-width:            1230px;
+    --tech-table-width:         1200px; */
 
 
 /*
@@ -102,7 +102,6 @@
 /*
     Фоны
 */
-
     --background-color-main: var(--white);
     --background-color-gray: var(--off-white);
     --background-color-black: var(--black);
@@ -113,7 +112,8 @@
 
 /*
     Рамки
-*/  --border-color-table:           var(--gray-medium);
+*/
+    --border-color-table:           var(--gray-medium);
     --border-radius-hero-image:     10px; /* hero-single image  */
     --border-radius-hero-slider:    14px; /* hero-slider  */
     --border-radius-hero-video:     20px; /* hero-single video  */
@@ -132,9 +132,11 @@
     --link-normal-color_hover:      var(--orange-light);
     --link-normal-color_disabled:   var(--gray);
 
-    /* Для тёмного фона */
-     --link-normal-color-dark-bk:   var(--violet);
-     --link-normal-color_hover-dark-bk: var(--violet-light);
+/* Для тёмного фона */
+
+    --link-normal-color-dark-bk:   var(--violet);
+    --link-normal-color_hover-dark-bk: var(--violet-light);
+
 /*
     Кнопки
 */
