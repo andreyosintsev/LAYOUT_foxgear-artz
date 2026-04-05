@@ -1,0 +1,16 @@
+.p_centered {
+    text-align: center;
+}
+
+.p_bold {
+    font-weight: bold;
+}
+
+.p_limited {
+    display: block;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}

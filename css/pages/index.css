@@ -45,6 +45,11 @@ body {
     margin-top: 50px;
 }
 
+.block-image {
+    margin-bottom: 50px;
+}
+
+
 .grid-image-text {
     margin: 0 auto;
     padding-top: 100px;
@@ -81,6 +86,10 @@ body {
 
 .section-title-page {
     margin-bottom: 20px;
+}
+
+.section-title_diminished {
+    font-size: 38px;
 }
 
 .section-p_center {
