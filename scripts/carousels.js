@@ -32,10 +32,11 @@ $(document).ready(function() {
         $('.form__label').on('click', function() {
             const index = $(this).data('index');
             const model = $(this).data('model');
-
+            const price = $(this).data('price');
 
             if (index) $carousel.trigger('to.owl.carousel', [index, 300]);
             if (model) $('.panel-single__subtitle').text('Модель: ' + model);
+            if (price) $('.panel-single__price').text(price);
         });
     }
 

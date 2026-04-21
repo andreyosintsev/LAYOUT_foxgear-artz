@@ -88,6 +88,10 @@ body {
     scroll-margin-top: 80px;
 }
 
+.form__label {
+    min-width: 154px;
+}
+
 .section-title-page {
     margin-bottom: 20px;
 }
@@ -175,6 +179,13 @@ body {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .form__label {
+        min-width: 145px;
+        padding: 7px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .main__wrapper {
         margin-bottom: 0;
@@ -205,5 +216,12 @@ body {
 
     .mb-100 {
         margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .form__label {
+        min-width: 140px;
+        padding: 5px;
     }
 }
