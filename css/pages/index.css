@@ -45,6 +45,12 @@ body {
     margin-bottom: 100px;
 }
 
+.video_full {
+    max-width: none;
+
+    border-radius: 0;
+}
+
 .hero-single {
     margin-top: 50px;
 }
