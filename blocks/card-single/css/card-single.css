@@ -1,11 +1,16 @@
 .card-single {
     position: relative;
     display: block;
+    padding: 24px;
 
     color: var(--text-color-main, #000000);
     font-family: var(--text-family-main, sans-serif);
     font-size: var(--text-size-main, 16px);
     font-weight: var(--text-weight-main, 300);
+
+    background-color: var(--white, #FFFFFF);
+
+    border-radius: var(--border-radius-card, 14px);
 
     line-height: var(--text-line-height-main, 20px);
 }
@@ -28,7 +33,8 @@
 
     line-height: 1;
 
-    text-align: center;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .card-single__description {
@@ -36,7 +42,7 @@
 
     line-height: var(--text-line-height-specs, 22px);
 
-    text-align: center;
+    text-align: left;
 }
 
 .card-single__link {
