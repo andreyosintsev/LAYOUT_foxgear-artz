@@ -101,6 +101,10 @@ body {
     margin-bottom: 100px;
 }
 
+.owl-dot.active span {
+    background-color: var(--black, #000000) !important;
+}
+
 @media screen and (max-width: 1600px) {
     .main {
         padding-top: 70px;
